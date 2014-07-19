@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+html {
+  background: black; }
+
 body {
   font: normal 14px/2.2rem Helvetica, Arial, sans-serif; }
 
@@ -51,5 +54,6 @@ body {
     width: auto;
     height: auto;
     z-index: -100;
-    background: url(../images/polina.jpg) no-repeat;
-    background-size: cover; }
+    background: url(../images/watermelon-background.jpg) no-repeat;
+    background-size: cover;
+    /*opacity: 0.8 */ }
