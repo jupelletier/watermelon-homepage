@@ -1,0 +1,64 @@
+$primary: rgb(0, 225, 156)
+$primary-shadowed: rgb(11, 119, 86)
+
+*
+	margin: 0
+	padding: 0
+
+body
+	font: normal 14px/2.2rem Helvetica, Arial, sans-serif
+
+#homepage
+	color: white
+
+	#homepageContent
+		position: absolute
+		top: 50%
+		margin-top: -10em
+		left: 8%
+
+		#watermelon
+			margin-bottom: 2rem
+
+		h1 
+			font-size: 1.8rem
+			margin-bottom: 3rem
+			font-weight: lighter
+			max-width: 60%
+			span
+				font-size: 1rem
+				color: rgba(255,255,255,.5)
+
+		.btn.download
+			font-size: 1.5rem
+			color: white
+			font-weight: lighter
+			background: $primary
+			border-radius: .25rem
+			text-decoration: none
+			padding: .8rem 1.5rem
+			box-shadow: 0 3px 0 $primary-shadowed
+			&:before
+				content: ''
+				display: inline-block
+				width: 1.5rem
+				height: 1.5rem
+				background: url(../images/icon-download.png) no-repeat
+				margin-right: .8rem
+				position: relative
+				top: .15em
+			&:hover
+				background: #00D191
+
+
+	video#bgvid
+		position: fixed
+		right: 0
+		bottom: 0
+		min-width: 100%
+		min-height: 100%
+		width: auto
+		height: auto
+		z-index: -100
+		background: url(../images/polina.jpg) no-repeat
+		background-size: cover
